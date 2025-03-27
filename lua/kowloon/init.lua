@@ -33,10 +33,10 @@ function theme.setup()
     vim.cmd("syntax reset")
   end
 
-  -- Set the colorscheme name
-  vim.g.colors_name = "my_theme"
+  vim.g.colors_name = "kowloon"
 
-  -- Basic highlight groups
+  vim.opt.background = "dark"
+
   vim.api.nvim_set_hl(0, 'Normal', { fg = colors.foreground, bg = colors.background })
   vim.api.nvim_set_hl(0, 'Comment', { fg = colors.bright_black, italic = true })
   vim.api.nvim_set_hl(0, 'Constant', { fg = colors.red })
@@ -49,7 +49,6 @@ function theme.setup()
   vim.api.nvim_set_hl(0, 'Underlined', { fg = colors.bright_magenta, underline = true })
   vim.api.nvim_set_hl(0, 'Todo', { fg = colors.bright_yellow, bold = true })
 
-  -- Terminal colors mapping
   vim.g.terminal_color_0  = colors.black
   vim.g.terminal_color_1  = colors.red
   vim.g.terminal_color_2  = colors.green
