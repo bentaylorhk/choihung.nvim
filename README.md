@@ -1,0 +1,2 @@
+# kowloon.nvim
+colourscheme
