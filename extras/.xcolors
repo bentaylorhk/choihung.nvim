@@ -1,0 +1,39 @@
+! Benjamin Michael Taylor (bentaylorhk)
+! 2025
+
+! special
+*.foreground:   #ebdbb2
+*.background:   #000000
+*.cursorColor:  #ebdbb2
+
+! black
+*.color0:       #1d2021
+*.color8:       #282a2e
+
+! red
+*.color1:       #782c17
+*.color9:       #be7161
+
+! green
+*.color2:       #889979
+*.color10:      #b5cfa7
+
+! yellow
+*.color3:       #af743c
+*.color11:      #c4b86e
+
+! blue
+*.color4:       #85abc2
+*.color12:      #dad5d9
+
+! magenta
+*.color5:       #865a6b
+*.color13:      #ac9ab0
+
+! cyan
+*.color6:       #6d8f6d
+*.color14:      #93a37b
+
+! white
+*.color7:       #dbcbae
+*.color15:      #bfaba6

@@ -1,0 +1,26 @@
+# Benjamin Michael Taylor (bentaylorhk)
+# 2025
+
+[colors.primary]
+background = '#000000'
+foreground = '#ebdbb2'
+
+[colors.normal]
+black = '#1d2021'
+red = '#782c17'
+green = '#889979'
+yellow = '#af743c'
+blue = '#85abc2'
+magenta = '#865a6b'
+cyan = '#6d8f6d'
+white = '#dbcbae'
+
+[colors.bright]
+black = '#282a2e'
+red = '#be7161'
+green = '#b5cfa7'
+yellow = '#c4b86e'
+blue = '#dad5d9'
+magenta = '#ac9ab0'
+cyan = '#93a37b'
+white = '#bfaba6'
