@@ -1,4 +1,4 @@
-# kowloon.nvim
+# choihung.nvim
 
 A Neovim colourscheme plugin.
 
@@ -9,14 +9,14 @@ following to your LazyVim configuration:
 
 ```lua
 {
-  "bentaylorhk/kowloon.nvim",
+  "bentaylorhk/choihung.nvim",
   config = function()
-    vim.cmd("colorscheme my_theme")
+    vim.cmd("colorscheme choihung")
   end
 }
 ```
 
 ## Additional files
 
-Additional config dotfiles using kowloon's colourscheme can be
+Additional config dotfiles using Choi Hung's colourscheme can be
 found under `extras`.
