@@ -67,21 +67,18 @@ ChoiHung.config = {
   transparent_mode = false,
 }
 
-local bg = "#000000"
-local fg = "#ebdbb2"
-
 ---@class ChoiHungPalette
 ChoiHung.palette = {
-  bg0 = bg,
-  bg1 = bg,
-  bg2 = bg,
-  bg3 = bg,
-  bg4 = bg,
-  fg0 = fg,
-  fg1 = fg,
-  fg2 = fg,
-  fg3 = fg,
-  fg4 = fg,
+  bg0 = "#000000",
+  bg1 = "#282828",
+  bg2 = "#3c3836",
+  bg3 = "#504945",
+  bg4 = "#665c54",
+  fg0 = "#ebdbb2",
+  fg1 = "#d5c4a1",
+  fg2 = "#bdae93",
+  fg3 = "#a89984",
+  fg4 = "#928374",
   red = "#be7161",
   green = "#b5cfa7",
   yellow = "#c4b86e",
