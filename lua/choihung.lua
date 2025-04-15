@@ -70,10 +70,10 @@ ChoiHung.config = {
 ---@class ChoiHungPalette
 ChoiHung.palette = {
   bg0 = "#000000",
-  bg1 = "#282828",
-  bg2 = "#3c3836",
-  bg3 = "#504945",
-  bg4 = "#665c54",
+  bg1 = "#1d2021",
+  bg2 = "#282828",
+  bg3 = "#3c3836",
+  bg4 = "#504945",
   fg0 = "#ebdbb2",
   fg1 = "#d5c4a1",
   fg2 = "#bdae93",
