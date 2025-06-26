@@ -1,0 +1,89 @@
+/*
+ * Benjamin Michael Taylor (bentaylorhk)
+ * 2025
+ */
+
+* {
+    bg:   #ebdbb2;
+    fg:   #000000;
+    accent: #889979;
+    alt-bg: #d5c4a1;
+    faded-fg: #a89984;
+    font: "scientifica 16";
+    border-radius: 0px;
+    spacing: 3px;
+    background-color: transparent;
+    text-color: @fg;
+}
+
+window {
+    location:         center;
+    border:           5px;
+    padding:          3px;
+    width:            425px;
+    background-color: @bg;
+}
+
+mainbox {
+    background-color: @bg;
+    border-radius: @border-radius;
+}
+
+inputbar {
+    background-color: @bg;
+    color: @fg;
+    border: none;
+    children: [ entry ];
+    border:           0px 0px 3px 0px;
+}
+
+counter {
+    enabled: false;
+}
+
+prompt {
+    enabled: false;
+    color:   @accent;
+}
+
+textbox-prompt-colon {
+    str: "";
+}
+
+entry {
+    font:             "scientifica Italic 16";
+    placeholder:      "search your soul...";
+    horizontal-align: 0.5;
+    hide-cursor-on-empty: true;
+    cursor-width:     0px;
+    placeholder-color: @faded-fg;
+}
+
+listview {
+    lines:            7;
+    spacing:          0px;
+    fixed-height:     false;
+    scrollbar:        false;
+    disable-count:    true;
+    background-color: @bg;
+    color: @fg;
+}
+
+element-text {
+    horizontal-align: 0.5;
+}
+
+element {
+    text-color: @fg;
+    background-color: @bg;
+}
+
+element selected {
+    text-color: @fg;
+    background-color: @accent;
+}
+
+element alternate {
+    text-color: @fg;
+    background-color: @alt-bg;
+}
