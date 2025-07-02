@@ -1,0 +1,3 @@
+[submodule "scientifica"]
+	path = scientifica
+	url = git@github.com:oppiliappan/scientifica.git
